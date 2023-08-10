@@ -1,0 +1,4 @@
+line-bot-sdk
+djangorestframework
+django
+openai
