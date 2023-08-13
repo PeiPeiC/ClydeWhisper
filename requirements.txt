@@ -2,3 +2,4 @@ line-bot-sdk
 djangorestframework
 django
 openai
+python-dotenv==1.0.0
