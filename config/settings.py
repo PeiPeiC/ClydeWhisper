@@ -39,11 +39,15 @@ LOGGING = {
 
 }
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
+
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+# URL to use when referring to static files (where they will be served from)
+STATIC_URL = '/static/'
 
-# Quick-start development settings - unsuitable for production
-# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
+# Absolute filesystem path to the directory where `collectstatic` will collect static files for deployment.
+STATIC_ROOT = BASE_DIR / 'staticfiles'
+
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-#h808wg$c5qk+ej@h4a9k@x74$x-asuz-2z1&t1kuwj+%d1a0+'
@@ -52,8 +56,6 @@ SECRET_KEY = 'django-insecure-#h808wg$c5qk+ej@h4a9k@x74$x-asuz-2z1&t1kuwj+%d1a0+
 DEBUG = True
 
 ALLOWED_HOSTS = ['82bc-220-138-234-89.ngrok-free.app', '127.0.0.1']
-
-
 # Application definition
 
 INSTALLED_APPS = [
