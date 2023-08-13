@@ -16,7 +16,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from ClydeWhisper.views import line_webhook
+from apps.views import line_webhook
 from django.views.decorators.csrf import csrf_exempt
 
 urlpatterns = [
