@@ -55,7 +55,7 @@ def handle_message(event):
                 },
                 {
                     "role": "system",
-                    "content": "Firstly, optimise the provided chat text into natural colloquial British English, preferably using British Slang or buzzwords.\nSecondly, if there are any errors point them out\nFinally, extract some vocabulary or collocation for Advanced English learners in bullet points from your suggested improvement.\n\n"
+                    "content": "Optimise the provided chat text into natural colloquial British English, preferably using British Slang or buzzwords."
                 }
             ],
             temperature=1,
