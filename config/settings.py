@@ -55,7 +55,8 @@ SECRET_KEY = 'django-insecure-#h808wg$c5qk+ej@h4a9k@x74$x-asuz-2z1&t1kuwj+%d1a0+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['82bc-220-138-234-89.ngrok-free.app', '127.0.0.1']
+ALLOWED_HOSTS = ['clydewhisper.onrender.com',
+                 '82bc-220-138-234-89.ngrok-free.app', '127.0.0.1']
 # Application definition
 
 INSTALLED_APPS = [
