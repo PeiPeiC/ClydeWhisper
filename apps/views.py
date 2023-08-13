@@ -55,14 +55,14 @@ def handle_message(event):
                 },
                 {
                     "role": "system",
-                    "content": "Firstly, optimise the provided chat text into natural colloquial British English, preferably using British Slang or buzzwords.\nSecondly, if there are any errors point them out\nFinally,from your optimised text, extract some vocabulary or collocation for Advanced English learners in bullet points \nDo not repeat the prompt!\n\n"
+                    "content": "Firstly, optimise the provided chat text into natural colloquial British English, preferably using British Slang or buzzwords.\nSecondly, if there are any errors point them out\nFinally, extract some vocabulary or collocation for Advanced English learners in bullet points from your suggested improvement.\n\n"
                 }
             ],
             temperature=1,
-            max_tokens=200,
+            max_tokens=243,
             top_p=0.3,
             frequency_penalty=1.2,
-            presence_penalty=1.2
+            presence_penalty=1.01
         )
         logging.info(f"Response object: {response}")
         logging.info(f"Choices object: {response.choices}")
